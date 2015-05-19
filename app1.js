@@ -161,7 +161,9 @@ var serverUp = function()
   })
   .on('ready', function()
   {
-    mainWindow = new BrowserWindow({ width: 500, height: 220, show: true });
+    mainWindow = new BrowserWindow(
+      { width: 500, height: 240, show: true,
+        frame: false, resizable: false });
     mainWindow //.loadUrl('https://mail.google.com/');
     .loadUrl('http://localhost:3333/index.html')
     mainWindow.focus();;

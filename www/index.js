@@ -118,7 +118,7 @@ var HelloComponent = React.createClass(
      <h1>==Security Timer Shutdown==</h1>
      <h1>rebootingTime : {Math.round(___rtime.now()/1000/60*10)/10} Minutes</h1>
      <h1>-----idleTime : {Math.round(___it.now()/1000/60*10)/10} Minutes</h1>
-     <h1>Outside and timer Shutdown?
+     <h1>Outside - Timer Shutdown?
      <input type="checkbox" style={cStyle} onChange={this.checked}/></h1>
      </div>);
    return el;
